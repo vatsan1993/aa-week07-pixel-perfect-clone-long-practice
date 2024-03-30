@@ -77,5 +77,16 @@ button.search-icon{
     font-weight: 500;
     font-size: 0.8em;
     letter-spacing: 1px;
+    border: 0;
+    margin: 10px;
 }
 
+@media screen and (max-width: 768px) {
+    .sm-visible{
+        display: block;
+    }
+
+    .md-visible{
+        display: none;
+    }
+}
